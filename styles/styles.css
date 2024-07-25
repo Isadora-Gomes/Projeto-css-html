@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(62, 34, 96);
+    position: fixed;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav li {
+    padding: 22px;
+}
+nav li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul a:hover {
+    color: rgb(166, 156, 156);
+}
+#index{
+    margin-top: 150px;
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#index h1{
+    font-size: 50px;
+}
+#index p{
+    font-size: 35px;
+    padding: 10px;
+}
+#index a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    height: 100vh;
+}
+#secao {
+    height: 150vh;
+}
+#html p, #css p{
+    width: 45%;
+    float: left;
+    font-size: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 40px;
+}
+#html, #css{
+    margin: 40px;
+}
+#html h1, #css h1{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    color:  rgb(62, 34, 96);
+    font-size: 35px;
+}
+
+#html img, #css img{
+    width: 380px;
+    text-align: right;
+    padding: 50px;
+    margin-left: 100px;
+}
+#html2, #css2{
+    margin-left: 60px;
+}
+#html2 p, #css2 p{
+    margin: 20px;
+    font-size: 20px;
+}
+#html2 ul li, #css2 ol li{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+h2, h3{
+    color:  rgb(62, 34, 96);
+}
+h4{
+    margin-bottom: 50px;
+    text-align: center;
+    color:  rgb(62, 34, 96);
+    font-size: 35px;
+}
+table, th, td {
+    border: 1px solid  rgb(62, 34, 96);
+    width: 220px;
+    height: 30px;
+    margin: 20px;
+    margin-left: 120px;
+}
+h3{
+    margin-bottom: 20px;
+}
+th, td{
+    padding: 5px;
+}
+
+#css2{
+    height: 200vh;
+}
+
+

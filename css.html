@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>CSS</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="html.html">html</a></li>
+            <li><a href="css.html">css</a></li>
+        </ul>
+    </nav>
+    <section id="css">
+        <div>
+            <h1>O que é CSS?</h1>
+            <p>CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa Folha de Estilo em Cascatas.  É usado para estilizar elementos escritos em uma linguagem de marcação como HTML. Ele define como os elementos HTML devem ser exibidos no navegador, controlando o layout, as cores, as fontes e o espaçamento. CSS permite separar o conteúdo da apresentação, tornando o código mais organizado e facilitando a manutenção.</p>
+            <p>O CSS pode ser inserido diretamente no HTML, dentro de tags (style) ou em arquivos externos vinculados ao documento HTML, proporcionando flexibilidade e reutilização dos estilos em várias páginas.</p>
+            <img src="img/logocss.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="css2">
+        <h2>Seletores:</h2>
+        <p>São utilizados para "selecionar" elementos HTML aos quais os estilos serão aplicados. Exemplos de três tipos básicos de seletores:</p>
+        <p>Tag: Aplica estilos a todas as instâncias de uma tag HTML específica.</p>
+        <img src="img/p.png" alt="">
+        <p>Nesse exemplo, todas as tags < p > terão o texto na cor marrom.</p>
+
+        <p>Classe: Aplica estilos a elementos que possuem uma classe específica. As classes são definidas no HTML com o atributo class.</p>
+        <img src="img/ele,.png" alt="">
+        <p>Nesse exemplo, todos os elementos com a classe "elementos" terá o tamanho da fonte definido como 20 pixels.</p>
+
+        <p>ID: Aplica estilos a um elemento único que possui um ID específico. Os IDs são definidos no HTML com o atributo id.</p>
+        <img src="img/text.png" alt="">
+        <p>Nesse exemplo, o elemento com o ID "texto" terão o fundo azul.</p>
+
+        <h2>Propriedades e Valores:</h2>
+        <p>Propriedade: Refere-se ao atributo visual que está sendo modificado, como color, font-size, margin, padding, background-color, entre outros.</p>
+        <p>Valor: Especifica a definição para a propriedade, como blue para a propriedade color, 16px para a propriedade font-size, ou 10px para margin.</p>
+
+        <h2>Classes e IDs:</h2>
+        <p>As classes são usadas para aplicar estilos a um ou mais elementos. Elas são definidas no HTML com o atributo class, e no CSS antecedidas por um ponto (.), e podem ser reutilizadas em múltiplos elementos para aplicar estilos comuns.</p>
+        <p>Os IDs são usados para aplicar estilos a um único elemento. Eles são definidos no HTML com o atributo id, e no CSS antecedidos por uma cerquilha (#). Cada ID deve ser único dentro de uma página HTML, garantindo que o estilo seja aplicado a um único elemento específico.</p>
+
+        <h2>Cascata e Especificidade:</h2>
+        <p>A cascata é o princípio pelo qual os estilos são aplicados aos elementos HTML no CSS. Ela define como diferentes regras de estilo são combinadas e resolvidas pelo navegador para determinar a aparência final dos elementos. Três fatores principais influenciam a cascata:</p>
+        <ol>
+            <li>Origem do Estilo: Estilos podem vir do próprio navegador, do usuário, ou do autor</li>
+            <li>Especificidade: Regras com seletores mais específicos têm prioridade sobre regras com seletores menos específicos.</li>
+            <li>Ordem de Aparição: Quando duas regras têm a mesma origem e especificidade, a regra que aparece por último no CSS é a que se aplica.</li>
+        </ol>
+        <p>Especificidade determina quais regras de estilo têm prioridade quando há conflitos. É calculada com base nos tipos de seletores usados.</p>
+
+
+        <h3>Exemplos de outras propriedades:</h3>
+        <img src="img/hm.png" alt="">
+        <p>Margin</p>
+        <img src="img/pad.png" alt="">
+        <p>Padding</p>
+    </section>
+</body>
+</html>
